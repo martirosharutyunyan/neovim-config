@@ -4,7 +4,7 @@ vim.g.loaded_netrwPlugin = 1
 
 return {
   "nvim-tree/nvim-tree.lua",
-  config = function () 
+  config = function ()
     require("nvim-tree").setup({})
   end;
 }
