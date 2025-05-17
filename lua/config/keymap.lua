@@ -3,7 +3,7 @@ local keymap = vim.api.nvim_set_keymap-- for conciseness
 
 keymap("i", "jk", "<ESC>", { desc = "Exit insert mode with jk" })
 keymap("n", "<leader>nh", ":nohl<CR>", { desc = "Clear search highlights" })
-keymap("n", "<C-b>", "<cmd>NvimTreeFocus<CR>", { noremap=true, silent=true, desc = "Toggle Nvim Tree"})
+keymap("n", "<C-b>", "<cmd>NvimTreeToggle<CR>", { noremap=true, silent=true, desc = "Toggle Nvim Tree"})
 
 -- increment/decrement numbers
 keymap("n", "<leader>+", "<C-a>", { desc = "Increment number" }) -- increment
